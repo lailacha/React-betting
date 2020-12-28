@@ -1,0 +1,57 @@
+#home h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+}
+#home span.emphase{
+    display: block;
+}
+
+#home{
+    background-color: rgba(242, 248, 253, 0.924);
+}
+
+#home button {
+    background-color: black;
+   
+}
+
+#home button:hover{
+    background-color: #079B6E;;
+}
+
+.scale-up-ver-center {
+   
+    animation: scale-up-ver-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
+}
+
+ @keyframes scale-up-ver-center {
+    0% {
+      transform: scaleY(0.4);
+    }
+    
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+  .rotate-scale-up {
+    display: inline-block;
+	animation: rotate-scale-up 5s ease-in-out infinite;
+}
+
+
+ @keyframes rotate-scale-up {
+    0% {
+      transform: scale(1) rotateZ(0);
+    }
+    
+    90% {
+      transform: scale(1) rotateZ(0);
+    }  
+
+    100% {
+      transform: scale(1) rotateZ(360deg);
+    }
+  }
+  

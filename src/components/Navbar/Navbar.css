@@ -1,0 +1,56 @@
+.navbar h2{
+  margin-right: auto;
+  margin-left: 20px;
+  font-size: 2em;
+}
+
+.navbar
+{
+  font-family: 'Bangers', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   height: 20%;
+ color: #079B6E;
+}
+
+.dark{
+  background: black;
+
+}
+
+.light
+{
+  background: white;
+}
+
+.nav-items{
+margin-right: 1em ;
+font-size: 1.6em;
+}
+
+.navbar button {
+  background-color: black;
+ 
+}
+
+.navbar button:hover{
+  background-color: grey;
+}
+
+.nav-items:hover{
+
+    color: grey;
+    transition: all ease-in-out 0.5s;
+}
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none ;
+
+
+}
+.nav-items {
+  color:  #079B6E ;
+  text-decoration: none;
+}
