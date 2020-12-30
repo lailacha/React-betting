@@ -5,6 +5,7 @@ import Home from './components/Home/Home'
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import ThemeContext from './components/ThemeContext'
 import {useState} from 'react';
+
 function App() {
 
 const [theme, setTheme] = useState(true);
